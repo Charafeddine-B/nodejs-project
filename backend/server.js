@@ -1,8 +1,13 @@
 const app = require('./app')
 const dotenv = require('dotenv')
 const mongoose = require('mongoose');
+const cors = require("cors");
 dotenv.config({ path: './backend/config/config.env' })
-
+app.use(
+    cors({
+      origin: "*",
+    })
+  );
 PORT = process.env.PORT
 db = process.env.db_con
 console.log(db)
