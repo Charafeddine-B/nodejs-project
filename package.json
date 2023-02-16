@@ -33,4 +33,4 @@ ndir a new folder ? att
 
 git remote set-url origin https://github.com/Indounette/nodejs.git
 
-done
+donegit merge origin main
