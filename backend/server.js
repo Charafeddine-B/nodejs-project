@@ -3,11 +3,9 @@ const dotenv = require('dotenv')
 const mongoose = require('mongoose');
 const cors = require("cors");
 dotenv.config({ path: './backend/config/config.env' })
-app.use(
-    cors({
-      origin: "*",
-    })
-  );
+app.options("*", cors({ origin: 'http://localhost:3000', optionsSuccessStatus: 200 }));
+
+app.use(cors({ origin: "http://localhost:3000", optionsSuccessStatus: 200 }));
 PORT = process.env.PORT
 db = process.env.db_con
 console.log(db)
