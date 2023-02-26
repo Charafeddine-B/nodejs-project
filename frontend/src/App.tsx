@@ -116,8 +116,9 @@ export default function App() {
     
         const {data: response} = await axios.get('http://localhost:5570/m/Movies');
         setdata(response);
-       
-        console.table(response);
+      
+        console.log(data);
+
   
     }
   
@@ -164,11 +165,11 @@ export default function App() {
         </Header>
       }
     >
-      <Text>FeaturesCard</Text>
+      <Text>Movies</Text>
       <SimpleGrid cols={4} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>
   
-      <FeaturesCard name='Titanic' cast="[ss],[cc]" description='some movies'/>
-    
+      <FeaturesCard name='Harry Potter and The sorcers stone' cast="aniel radiclif , emma watson , ron" description='its a movie about magic'/>
+      <FeaturesCard name='Harry Potter II' cast="aniel radiclif , emma watson , ron" description='its a movie about magic'/>
 
       </SimpleGrid>
     </AppShell>

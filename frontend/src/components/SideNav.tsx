@@ -74,11 +74,11 @@ const useStyles = createStyles((theme, _params, getRef) => {
 });
 
 const data = [
-  { link: '', label: 'All Products', icon: IconList },
-  { link: '', label: 'Jeans', icon: IconReceipt2 },
-  { link: '', label: 'T-Shirts', icon: IconFingerprint },
-  { link: '', label: 'Sneakers', icon: IconKey },
-  { link: '', label: 'Hats', icon: IconDatabaseImport },
+  { link: '', label: 'All Movies', icon: IconList },
+  { link: '', label: 'Tv Shows', icon: IconReceipt2 },
+  { link: '', label: 'Comidies', icon: IconFingerprint },
+  { link: '', label: 'Action', icon: IconKey },
+  { link: '', label: 'Trending', icon: IconDatabaseImport },
   { link: '', label: 'Glasses', icon: Icon2fa },
   { link: '', label: 'others', icon: IconSettings },
 ];

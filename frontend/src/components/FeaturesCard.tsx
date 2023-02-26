@@ -53,6 +53,7 @@ interface movie {
   cast: string;
   
   description:string;
+  image : string;
 
 }
 export function FeaturesCard(props :movie) {
@@ -73,7 +74,7 @@ const baseURL = "http://localhost:5570/m/Movies"
    
     <Card withBorder radius="md" className={classes.card}>
       <Card.Section className={classes.imageSection}>
-        <Image src="https://play-lh.googleusercontent.com/560-H8NVZRHk00g3RltRun4IGB-Ndl0I0iKy33D7EQ0cRRwH78-c46s90lZ1ho_F1so" alt="Tesla Model S" />
+        <Image src={props.image} alt="Tesla Model S" />
       </Card.Section>
 
       <Group position="apart" mt="md">

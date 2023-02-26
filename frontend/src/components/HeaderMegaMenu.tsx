@@ -133,10 +133,10 @@ export function HeaderMegaMenu() {
             </a>
          
             <a href="#" className={classes.link}>
-              Learn
+              Catalogue
             </a>
             <a href="#" className={classes.link}>
-              Academy
+              IPTV
             </a>
           </Group>
 
@@ -170,7 +170,7 @@ export function HeaderMegaMenu() {
             All Products
           </a>
           <a href="#" className={classes.link}>
-            Academy
+           NO
           </a>
 
           <Divider my="sm" color={theme.colorScheme === 'dark' ? 'dark.5' : 'gray.1'} />
