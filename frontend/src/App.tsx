@@ -14,7 +14,7 @@ Header,
   createStyles,
   SimpleGrid
 } from '@mantine/core';
-import { MantineLogo } from '@mantine/ds';
+
 import {HeaderMegaMenu} from './components/HeaderMegaMenu';
 
 const useStyles = createStyles((theme, _params, getRef) => {
@@ -168,8 +168,8 @@ export default function App() {
       <Text>Movies</Text>
       <SimpleGrid cols={4} spacing="xl" mt={50} breakpoints={[{ maxWidth: 'md', cols: 1 }]}>
   
-      <FeaturesCard name='Harry Potter and The sorcers stone' cast="aniel radiclif , emma watson , ron" description='its a movie about magic'/>
-      <FeaturesCard name='Harry Potter II' cast="aniel radiclif , emma watson , ron" description='its a movie about magic'/>
+      <FeaturesCard name='Harry Potter and The sorcers stone' cast="aniel radiclif , emma watson , ron" description='its a movie about magic' image='https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg'/>
+      <FeaturesCard name='Harry Potter II' cast="aniel radiclif , emma watson , ron" description='its a movie about magic' image='https://m.media-amazon.com/images/M/MV5BMGVmMWNiMDktYjQ0Mi00MWIxLTk0N2UtN2ZlYTdkN2IzNDNlXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_FMjpg_UX1000_.jpg'/>
 
       </SimpleGrid>
     </AppShell>
